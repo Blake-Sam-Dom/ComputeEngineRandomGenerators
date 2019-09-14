@@ -38,4 +38,4 @@ Almost done! from here, the only thing that needs done is to restart Apache:
 ```
 sudo systemctl restart apache2
 ```
-Your random number generator on Compute Engine is now set up! To verify it's random enough, run the ```verify.sh``` file on your server instance.
+Your random number generator on Compute Engine is now set up! To verify it's random enough, run the ```verify.sh``` file on your server instance. The two implementations are available at {YOUR PUBLIC IP}/python/ and {YOUR PUBLIC IP}/java/RandGen.shtml.
