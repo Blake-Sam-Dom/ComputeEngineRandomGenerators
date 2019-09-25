@@ -4,6 +4,6 @@ public class RandGen
 	public static void main(String[] args)
 	{
 		Random rand = new Random();
-		System.out.println(rand.nextInt(1000000)+1);
+		System.out.print(rand.nextInt(1000000)+1);
 	}
 }
