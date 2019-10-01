@@ -2,7 +2,7 @@
 
 ## Compute Engine
 
-For Compute Engine, you must be running a Linux image in Google Cloud Plattform, preferably Ubuntu 18.04 or newer and have the following setup: [Setup-1](Setup-1.png)
+For Compute Engine, you must be running a Linux image in Google Cloud Plattform, preferably Ubuntu 18.04 or newer and have the following setup: ![Setup-1](Setup-1.png)
 Additionally, make sure to check the "Allow HTTP traffic" box at the bottom of the page [Setup-2].
 First, ensure that the following packages are installed. An easy way to check is to run ```dpkg -l {package name}```. If they are not installed, run ```sudo apt install -y {package name}```.
 ```
